@@ -1,0 +1,8 @@
+@font-face {
+	font-family: Joystix Monoscpace;
+	src: url(../joystixnonospace.ttf)
+}
+
+h1 {
+	font-family: Joystix Monoscpace;
+}

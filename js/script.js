@@ -88,11 +88,17 @@ function iniciarJogo(){
                 clearInterval(jogo);
 
             //Inserir game over e pontuação final
-            fimDeJogo.innerHTML = "<div class='alert alert-danger' role='alert'>" +
-                "<h2 class='text-danger'><i class='fas fa-sad-cry'></i> Game over</h2>" +
-                "<p>Você perdeu :(</p>" +
-                "<button class='btn btn-danger' onclick='window.location.reload();'>Recomeçar</button>" +
-                "</div>";
+            fimDeJogo.classList.add("bg-game-over")
+            fimDeJogo.innerHTML = 
+            "<div class='alertgameover text-center p-5 rounded' role='alert'>"  +
+                    "<div>" +
+                    "<h2> GAME OVER</h2>" +
+                    "<p> Voce perdeu :(</p>" +
+                "</div>" +
+                "<div class='mt-5'>" +
+                    "<button onclick='window.location.reload();' class='btn-game-over'>Recomeçar</button>"  +
+                "</div>" +
+            "</div>";
         }
     }
 

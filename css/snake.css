@@ -1,8 +1,181 @@
 @font-face {
 	font-family: Joystix Monoscpace;
-	src: url(../joystixnonospace.ttf)
+	src: url(../font/joystix\ monospace.ttf)
+}
+
+@font-face {
+	font-family: Return of Ganon;
+	src: url(../font/retganon.ttf)
+}
+
+
+:root {
+	--green: #90EE90;
+	--red: #FE0000;
+	--red-dark: #910000;
+	--red-light: #ff3d3d;
+	--green-dark: #52a152;
+	--black: rgb(17, 17, 17);
 }
 
 h1 {
+	text-shadow: var(--red-light) 2px 3px;
+}
+
+h1, button {
 	font-family: Joystix Monoscpace;
+}
+
+div.snake{
+	content: " ";
+	position: absolute;
+	left: 43%;
+	top: 50px;	
+}
+
+div.head{
+	width: 30px;
+	height: 20px;
+	background-color: var(--green-dark);
+	position: absolute;
+	top: -35px;
+	right: -407px;
+	border-radius: 100px;
+}
+
+div.eye1{
+	width: 5px;
+	height: 8px;
+	background-color: var(--red-dark);
+	position: absolute;
+	top: -30px;
+	right: -400px;
+	border-radius: 100%;
+}
+
+div.eye2{
+	width: 5px;
+	height: 8px;
+	background-color: var(--red-dark);
+	position: absolute;
+	top: -30px;
+	right: -390px;
+	border-radius: 100%;
+}
+
+
+div.neck{
+	width: 15px;
+	height: 20px;
+	background-color: var(--green-dark);
+	position: absolute;
+	top: -18px;
+	right: -400px;
+}
+
+div.body{
+	width: 600px;
+	height: 15px;
+	left: -200px;
+	background-color: var(--green-dark);
+	position: absolute;
+	border-radius: 90px 30px 40px 30px;
+}
+
+
+div.body:after{
+	content: '';
+    top: 10px;
+    left: -30px;
+    position: absolute;
+    border: 0px solid;
+    display: block;
+    width: 30px;
+	height: 20px;
+    background-color: transparent;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 10%;
+    box-shadow: 10px 5px 0px 4px var(--green-dark);
+}
+
+
+
+h2, li, p {
+	font-family: Return of Ganon;
+}
+
+
+
+hr{
+	border-bottom: var(--green) 3px dotted;
+	width: 200px;
+}
+
+
+
+.bg-black{
+	background-color: var(--black);
+}
+
+
+i {
+	color: var(--red);
+}
+
+canvas {
+	/* padding: 10px; */
+	border: var(--red) 6px ridge;
+}
+
+#gamesnake{
+	position: relative;
+}
+
+#gameover {
+	top: 0;
+	width: 100vw;
+	height: 100vh;
+	position: absolute;
+}
+
+.bg-game-over {
+	background-color:rgba(22, 0, 0, 0.9);
+
+}
+
+#points {
+	position: relative;
+}
+
+.alertgameover h2{
+	font-size: 5em;
+	font-weight: 900;
+}
+
+p {
+	color: #FFF;
+	font-size: 2em;
+}
+
+.btn-game-over {
+	background-color: var(--red-dark);
+	color: #FFF;
+	padding: 10px;
+	border: none;
+}
+
+.alertgameover h2 {
+	color: var(--red-dark);
+	text-shadow: var(--red) 1px 3px;
+}
+
+.btn-game-over:hover {
+	color: var(--green);
+	background-color: transparent;
+	border: var(--green) 3px solid;
+	transition: all 0.4s;
+}
+
+#pontos {
+	font-size: 2em;
 }

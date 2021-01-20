@@ -1,11 +1,28 @@
-Um projeto prático da Digital Innovation One recriando o jogo da cobrinha feito em HTML5 com o elemento Canvas e Javascript.
+# :snake: Snake Game
 
-Acesse o projeto em https://gloriaporte.github.io/dio_snakegame_javascript
+* [Português](https://github.com/gloriaporte/dio_snakegame_javascript/#sobre)
+* [Englishs](https://github.com/gloriaporte/dio_snakegame_javascript/#about)
+
+## :information_source: Sobre
+
+Um projeto prático da Digital Innovation One recriando o jogo da cobrinha, com pontuação e tela de game over, feito com: 
+* HTML5.
+* CSS3.
+* Canvas.
+* Javascript.
+
+[Acesse o projeto.](https://gloriaporte.github.io/dio_snakegame_javascript)
 
 ____________________________________
 
-This is a Digital Innovation One project of recreating snakegame using HTML5 Canvas and Javascript.
+## :information_source: About
 
-Acess the project in https://gloriaporte.github.io/dio_snakegame_javascript
+This is a Digital Innovation One project of recreating snakegame, with points and game over screen using:
+* HTML5.
+* CSS3.
+* Canvas.
+* Javascript.
+
+[Acess the project.](https://gloriaporte.github.io/dio_snakegame_javascript)
 
 

@@ -25,4 +25,5 @@ This is a Digital Innovation One project of recreating snakegame, with points an
 
 [Acess the project.](https://gloriaporte.github.io/dio_snakegame_javascript)
 
-
+![Snakegame screen](screen.JPG)
+![Snakegame game over screen](screen-game-over.JPG)
